@@ -110,7 +110,6 @@ fun AppNavGraph() {
                     onOpenCamera   = { backStack.add(MainGraph.CameraRoute()) },
                     onOpenStatus   = { backStack.add(MainGraph.StatusRoute) },
                     onOpenCalls    = { backStack.add(MainGraph.CallsRoute) },
-                    onOpenProfile  = { backStack.add(MainGraph.ProfileRoute) },
                     onOpenSettings = { backStack.add(MainGraph.SettingsRoute) }
                 )
             }

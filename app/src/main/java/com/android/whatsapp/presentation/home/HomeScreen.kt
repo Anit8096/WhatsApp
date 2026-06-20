@@ -48,7 +48,6 @@ fun HomeScreen(
     onOpenCamera   : () -> Unit,
     onOpenStatus   : () -> Unit,
     onOpenCalls    : () -> Unit,
-    onOpenProfile  : () -> Unit,
     onOpenSettings : () -> Unit,
 ) {
     val viewModel  : HomeViewModel = koinViewModel()
